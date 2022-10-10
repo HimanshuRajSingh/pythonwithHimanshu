@@ -1,0 +1,29 @@
+himanshurajsingh1997@gmail.com
+
+checkout
+clone
+status
+branch
+push
+
+
+Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+Set your email address: git config --global user.email "MY_NAME@example.com"
+
+
+
+create branch from github or from git bash ;: git checkout branch name
+
+make sure you are at your branch before doing anything
+
+after making changes do a "git status" it will show some untracked file and suggest u to add 
+
+now do a "git add" to tracked the file 
+
+now your change are ready to be commit so do a "git commit -m "msg"
+
+again do a git status it should show nothing to be commit
+
+now do a git push
+
+goto github and make a pull request
