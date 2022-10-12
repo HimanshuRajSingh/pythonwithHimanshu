@@ -3,3 +3,59 @@ my name is tannu shree
 Hey
 This is Pratiksha
 Git Lessons
+
+
+#Day 1
+#Module :-
+1.in-built module : pre installed in python ex :-os ,abc etc
+2.external module : pip install moduleName ex : flask 
+
+variable:
+a variable is name given to a memory location 
+a=30
+b="Pra"
+c=7.23
+
+
+datatype:
+1.Integer
+2.Floating point number
+3.String
+4.boolean
+5.None
+
+rules for defining variable:
+1.it can contain alphabet , number ,underscore
+2.cant be start with a number
+3.should always starts with aiphabet or _
+4.no white space allow 
+
+
+# operator
+1.Arthemetic : +,- ,* ,% ,/
+2.Assigned : = , == , +=
+3.Comparison : == , > ,< ,!= etc  
+4.logical : and , or , not
+
+#input():- the value taken by this method is by default "string"
+
+
+#Day2
+1.String : it is a datatype .it is a sequence of characters enclosed in  quotes
+''
+""
+''''
+
+Indexing :
+ex: tannu
+t=0
+a=1
+n=2
+n=3
+u=4(n-1)
+#Negative index
+t=-5
+a=-4
+n=-3
+n=-2
+u=-1
