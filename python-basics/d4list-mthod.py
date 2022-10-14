@@ -1,5 +1,5 @@
 l1=[1,2,9,4,5,6]
-#l1.sort()
+l1.sort()
 print(l1)
 l1.reverse()
 print(l1)
