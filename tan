@@ -1,61 +1,122 @@
-my name is tannu shree
+# my name is tannu shree
 
-Hey
-This is Pratiksha
-Git Lessons
-
-
-#Day 1
-#Module :-
-1.in-built module : pre installed in python ex :-os ,abc etc
-2.external module : pip install moduleName ex : flask 
-
-variable:
-a variable is name given to a memory location 
-a=30
-b="Pra"
-c=7.23
+# Hey
+# This is Pratiksha
+# Git Lessons
 
 
-datatype:
-1.Integer
-2.Floating point number
-3.String
-4.boolean
-5.None
+# #Day 1
+# #Module :-
+# 1.in-built module : pre installed in python ex :-os ,abc etc
+# 2.external module : pip install moduleName ex : flask 
 
-rules for defining variable:
-1.it can contain alphabet , number ,underscore
-2.cant be start with a number
-3.should always starts with aiphabet or _
-4.no white space allow 
+# variable:
+# a variable is name given to a memory location 
+# a=30
+# b="Pra"
+# c=7.23
 
 
-# operator
-1.Arthemetic : +,- ,* ,% ,/
-2.Assigned : = , == , +=
-3.Comparison : == , > ,< ,!= etc  
-4.logical : and , or , not
+# datatype:
+# 1.Integer
+# 2.Floating point number
+# 3.String
+# 4.boolean
+# 5.None
 
-#input():- the value taken by this method is by default "string"
+# rules for defining variable:
+# 1.it can contain alphabet , number ,underscore
+# 2.cant be start with a number
+# 3.should always starts with aiphabet or _
+# 4.no white space allow 
 
 
-#Day2
-1.String : it is a datatype .it is a sequence of characters enclosed in  quotes
-''
-""
-''''
+# # operator
+# 1.Arthemetic : +,- ,* ,% ,/
+# 2.Assigned : = , == , +=
+# 3.Comparison : == , > ,< ,!= etc  
+# 4.logical : and , or , not
 
-Indexing :
-ex: tannu
-t=0
-a=1
-n=2
-n=3
-u=4(n-1)
-#Negative index
-t=-5
-a=-4
-n=-3
-n=-2
-u=-1
+# #input():- the value taken by this method is by default "string"
+
+
+# #Day2
+# 1.String : it is a datatype .it is a sequence of characters enclosed in  quotes
+# ''
+# ""
+# ''''
+
+# Indexing :
+# ex: tannu
+# t=0
+# a=1
+# n=2
+# n=3
+# u=4(n-1)
+# #Negative index
+# t=-5
+# a=-4
+# n=-3
+# n=-2
+# u=-1
+
+
+# #String Slicing:
+# syntax :str[ind_start : end_index]
+
+# #String Slicing:
+# syntax: str[ind_start : end_index:skip_val]
+
+#String Method:
+# 1.len(): will throw total length of string
+# 2.String.endwith("") : boolean 
+# 3.String.count("")
+# 4.String.capitalize(): it will capitalize first ltter of string
+# 5.String.find(word): will search and return the index value
+# 6.String.replace(old_word , new_word)
+
+#Day3
+#Practice set
+
+#Day4
+#lists: a container which contains different data of different datatype 
+#l1=[1,"abc",2.3] 
+#l1[0]=1
+#l1[2]=2.3
+
+#l1[0:2]=1,abc  #Slicing
+
+#list's Method(python.org)
+#1.l1.sort()
+#2.l1.reverse()
+#3.l1.append(19)
+#4.l1.insert(indexvalue , value) : l1.insert(1,8)
+#5.l1.pop(indexvalue)
+#6.l1.remove(value)
+
+#tuple :()
+#iMMUTABLE  : cANT BE CHNAGED ONCE WE DEFINED IT
+#tup=() #empty tuple
+#tup=(1,) # tuple with single value
+#tup=(1,2,3)
+
+#tuple's method 
+#1.tup.count(value):
+#2.tup.index(value): return index
+
+
+#Dictionary
+#it is collection of key-value pair
+#syntax: {1:apple , 2:cat, 3:animal}
+
+# prop of dict 
+#1.unordered
+#2.mutable
+#3.indexing
+#4.key can not be duplicate
+
+#dict's method
+#1.dic.items() :- return a list of key-value tuple
+#2.dic.key() : return list of keys
+#3.dic.update({key:updated_value})
+#dic.get(key) : return value
