@@ -1,0 +1,1 @@
+we are going to use class and object concepts .. so that we can implemnet real world entities like inheritence , polymorphism , encapsulation etc
