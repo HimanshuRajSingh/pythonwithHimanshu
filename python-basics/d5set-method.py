@@ -8,6 +8,3 @@ print(set1)
 print(set1.pop())
 
 print(set1.pop())
-
-
-#erfgtyhuijij
